@@ -1,0 +1,50 @@
+body {
+    background-color: #e6f0fa;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: red;
+}
+
+.caixa-perguntas {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+.caixa-alternativas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilo comum para os dois botões */
+.botao {
+    width: 300px;
+    height: 180px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Foto do Verstappen sério (Assustador) */
+#btn-assustador {
+    background-image: url('https://www.f1mania.net/f1/f1-verstappen-apos-8o-na-hungria-ficar-bravo-nao-faz-o-carro-ser-mais-rapido/'); 
+    color: red;
+}
+
+/* Foto do Verstappen sorrindo (Maravilhoso) */
+#btn-maravilhoso {
+    background-image: url('https://www.lance.com.br/formula-1/ceo-da-f1-garante-permanencia-de-max-verstappen-feliz-com-mudancas.html'); 
+    color: green;
+}
+
+.escondido {
+    display: none;
+}
